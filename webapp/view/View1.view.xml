@@ -1,0 +1,19 @@
+<mvc:View controllerName="Image.Imageover.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:myControl="Image.Imageover.Imageover1">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Carousel>
+							<pages>
+								<myControl:Image src="test-resources/sap/ui/documentation/sdk/images/nature/ALotOfElephants_small.jpg" 
+									width="150px" myFunction="onClick"></myControl:Image>
+							</pages>
+						</Carousel>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
